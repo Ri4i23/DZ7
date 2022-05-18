@@ -6,8 +6,6 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 double[,] array = new double[m, n];
 
-
-
 for (int i = 0; i < m; i++)
 {
      

@@ -13,7 +13,6 @@ int[,] array = new int[m,n];
 FillArray(array);
 PrintArray(array);
 
-
 for (int i = 0; i < m; i++)
 {
     for (int j = 0; j < n; j++)
@@ -32,8 +31,6 @@ for (int i = 0; i < m; i++)
  Console.WriteLine();
 }
 
-
-//МЕТОД ПЕЧАТИ МАССИВА
 void PrintArray(int[,] matr) 
 {
     for (int rows = 0; rows < matr.GetLength(0); rows++)
@@ -45,7 +42,7 @@ void PrintArray(int[,] matr)
         Console.WriteLine();
     }
 }
-// МЕТОД ЗАПОЛНЕНИЯ МАССИВА
+
 void FillArray(int[,] matr) 
 {
     for (int rows = 0; rows < matr.GetLength(0); rows++)
